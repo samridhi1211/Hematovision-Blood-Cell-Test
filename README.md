@@ -4,35 +4,50 @@
 HematoVision is a deep learning-based web application that classifies blood cell images into four categories using Transfer Learning. The model is deployed using Flask, allowing users to upload an image and get real-time predictions.
 
 🚀 Features
+
     📤 Upload blood cell images via web interface
+    
     🤖 Deep Learning model (MobileNetV2)
+    
     🎯 Real-time prediction
+    
     📊 Confidence score display
+    
     🖼️ Image preview before prediction
+    
     🌐 Flask-based deployment
 
     
 🧠 Model Details
+
      Architecture: MobileNetV2 (Transfer Learning)
+     
      Input Size: 224 × 224
+     
      Classes:
            Eosinophil
            Lymphocyte
            Monocyte
            Neutrophil
+           
      Training Accuracy: ~80%
 
      
 🛠️ Tech Stack
+
     Python
+    
     TensorFlow / Keras
+    
     Flask
+    
     HTML / CSS / JavaScript
 
     
 📁 Project Structure
-Hematovision/
-│
+
+
+│Hematovision/
 ├── app.py              # Flask application
 ├── train.py           # Model training script
 ├── check_data.py      # Dataset verification
